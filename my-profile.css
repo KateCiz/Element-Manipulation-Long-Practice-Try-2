@@ -1,0 +1,15 @@
+.name {
+  color: blue;
+}
+
+.myDetails {
+  border: 2px solid red;
+}
+
+.myDetails:hover {
+  background-color: aqua;
+}
+
+.detail {
+  padding: 5px;
+}
