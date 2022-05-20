@@ -59,6 +59,20 @@ function addProfilePic(img) {
 
 }
 
+// Phase Bonus B: working code
+let change = document.querySelector('h1');
+change.outerHTML = `
+<h6 class='name'>Changed</h6>
+`;
+change = document.querySelector('h6');
+change.classList.add('awesome');
+
+
+let el = document.querySelector('.detail');
+console.log(el.closest('ul'));
+
+// -------------------------
+
 addProfilePic('https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg');
 
 function createList(listName, list) {
@@ -79,3 +93,4 @@ function createList(listName, list) {
 }
 
 createList('favorite restaraunts', ['schwarma place', 'baskin robbins', 'new york coffee shop'])
+

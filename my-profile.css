@@ -13,3 +13,7 @@
 .detail {
   padding: 5px;
 }
+
+.awesome {
+  border: 3px dashed blue;
+}
